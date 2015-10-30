@@ -1,0 +1,31 @@
+<h2>Lista de compras</h2>
+
+<?php if(isset($this->listas) && count($this->listas)) : ?>
+<table>
+    
+    <?php for($i = 0; $i < count($this->listas); $i++): ?>
+    
+    <tr>
+        <td><?php echo $this->listas[$i]['idl']; ?></td>
+        <td><?php echo $this->listas[$i]['prodcod']; ?></td>
+        <td><?php echo $this->listas[$i]['prodnom']; ?></td>
+        <td><?php echo $this->listas[$i]['listcant']; ?></td>
+        
+   
+      <?php if(Session::accesoViewEstricto(array('usuario'))):?>
+        <td>
+        <a href="<?php echo BASE_URL . 'lista/aumentar/' . $this->listas[$i]['idl']; ?>">Agregar uno</a></td>
+     <?php endif; ?>
+        
+        
+    </tr>
+    
+    <?php endfor;?>
+</table>
+
+<?php else: ?>
+
+<p><strong>No hay productos!</strong></p>
+
+<?php endif; ?>
+

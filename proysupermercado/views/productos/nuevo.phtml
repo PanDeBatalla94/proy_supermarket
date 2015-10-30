@@ -1,0 +1,24 @@
+
+<?php //if(isset($this->prueba)) echo $this->prueba;?>
+<p> </p>
+<form id="form1" method="post" action="<?php echo BASE_URL; ?>productos/nuevo">
+    <input type="hidden" name="guardar" value="1" />
+    <p>codigo <br />
+        <input type="texto" name="codigo" value="<?php if(isset($this->datos['codigo'])) echo $this->datos['codigo']; ?>"/></p>
+        <p>nombre <br />
+            <textarea name="nombre"><?php if(isset($this->datos['nombre'])) echo $this->datos['nombre']; ?></textarea>
+     <p>precio <br />
+        <input type="texto" name="precio" value="<?php if(isset($this->datos['precio'])) echo $this->datos['precio']; ?>"/></p>
+ <p>marca <br />
+        <input type="texto" name="marca" value="<?php if(isset($this->datos['marca'])) echo $this->datos['marca']; ?>"/></p>
+ <p>descuento <br />
+        <input type="texto" name="descuento" value="<?php if(isset($this->datos['descuento'])) echo $this->datos['descuento']; ?>"/></p>
+       
+ <p>descripcion <br />
+            <textarea name="descripcion" ><?php if(isset($this->datos['descripcion'])) echo $this->datos['descripcion']; ?></textarea>
+ <p>tamanio<br />
+        <input type="texto" name="tamanio" value="<?php if(isset($this->datos['tamanio'])) echo $this->datos['tamanio']; ?>"/></p>
+  <input type="submit" class="buttom" value="guardar" />
+</form>
+
+

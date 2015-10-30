@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/lista/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/registro/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/View.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/Models/productosModel.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/index/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/controllers/errorController.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/productos/nuevo.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Bootstrap.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Request.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/controllers/loginController.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/error/access.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/controllers/productosController.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/controllers/listaController.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/layout/default/Header.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/error/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/controllers/registroController.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/Models/loginModel.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/productos/editar.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Hash.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/index.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/hola/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Model.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/productos/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/public/js/script.js</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Registro.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/layout/default/css/estilos.css</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/Models/listaModel.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/controllers/indexController.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/layout/default/css/menu.css</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Config.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/views/login/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/Models/registroModel.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/application/Session.php</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/proysupermercado/public/js/jquery.validate.js</file>
+        </group>
+    </open-files>
+</project-private>

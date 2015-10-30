@@ -1,0 +1,51 @@
+<h2>Productos</h2>
+
+<?php if(isset($this->productoss) && count($this->productoss)) : ?>
+
+<table>
+    
+    <?php for($i = 0; $i < count($this->productoss); $i++): ?>
+    
+    <tr>
+        <td><?php echo $this->productoss[$i]['codigo']; ?></td>
+        <td><?php echo $this->productoss[$i]['nombre']; ?></td>
+        <td><?php echo $this->productoss[$i]['precio']; ?></td>
+        <td><?php echo $this->productoss[$i]['descuento']; ?></td>
+        <td><?php echo $this->productoss[$i]['marca']; ?></td>
+        <td><?php echo $this->productoss[$i]['descripcion']; ?></td>
+        <td><?php echo $this->productoss[$i]['tamanio']; ?></td>
+   
+      <?php if(Session::accesoViewEstricto(array('usuario'))):?>
+       
+        <td>  <form id="form1" method="post" action="">
+                <input type="hidden" name="guardar" value="1" />
+                 cantidad
+        <input type="texto" name="cantidad" value="1"/>          
+    <input type="submit" class="buttom" value="guardar" />
+            </form>
+            
+            
+        </td>
+            
+            
+            <?php endif; ?>
+        
+        <?php if(Session::accesoViewEstricto(array('admin'))):?>
+        <td><?php echo $this->productoss[$i]['estado']; ?></td>
+        <td><?php echo $this->productoss[$i]['tipo']; ?></td>
+        <td><?php echo $this->productoss[$i]['ubicacion']; ?></td>
+        <td><a href="<?php echo BASE_URL . 'productos/editar/' . $this->productoss[$i]['codigo']; ?>">Editar</a></td>
+        <?php endif; ?>
+    </tr>
+    
+    <?php endfor;?>
+</table>
+
+<?php else: ?>
+
+<p><strong>No hay productos!</strong></p>
+
+<?php endif; ?>
+<?php if(Session::accesoViewEstricto(array('admin'))):?>
+<p><a href="<?php BASE_URL: ?>productos/nuevo">Agregar productos</a></p>
+<?php endif; ?>

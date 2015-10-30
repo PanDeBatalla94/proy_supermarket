@@ -1,0 +1,531 @@
+/* 
+-----------------------------------
+Documento CSS
+Jaisiel Delance | www.dlancedu.com
+-----------------------------------
+*/
+
+
+body{
+	margin: 0;
+	background: #243D59;
+	font-family: Arial, sans-serif;
+}
+
+h1,h2,h3,h4 {
+	text-shadow: 0 2px 0 #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px silver solid;
+}
+
+td, th {
+    padding: 3px 6px;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+ul {
+	list-style: circle;
+}
+
+a {
+	color: #045FB4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main{
+	position: relative;
+	margin: 0 auto 0 auto;
+	width: 900px;
+	padding-top: 20px;
+}
+
+#header{
+	width: 900px;
+	height: 100px;
+}
+
+#logo{
+	width: 270px;
+	float: left;
+	margin: 0;
+	padding: 10px 10px 10px 20px;
+	height: 80px;
+}
+
+#logo h1{
+	color: #FFFFFF;
+	line-height: 60px;
+	text-shadow: 0 0 0;
+	margin: 0;
+}
+
+#menu{
+	width: 580px;
+	height: 80px;
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+
+#content{background: #999999;
+	color: #6E6E6E;
+	width: 830px;
+	padding: 20px 20px 20px 50px;
+	background: white;
+	font-family: "Trebuchet MS", sans-serif;
+	border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	overflow: hidden;
+}
+
+#content h1, h2 {
+	color: #0B3861;
+}
+#title {
+	height: 70px;
+	background: #014464;
+	background: -moz-linear-gradient(top, #0272a7, #013953);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#013953));
+	text-decoration:none;
+	text-shadow: 2px 2px 2px #000;
+}
+#title1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 920px;
+	padding-left: 70px;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#top_menu{
+	height: 60px;
+	position: relative;
+	width: 530px;
+	margin: 0 auto 0 auto;
+	color: white;
+	overflow: hidden;
+	text-transform: uppercase;
+	background: url(../img/menu_background_1.jpg) repeat-x;
+	border-radius: 5px;
+}
+
+#top_menu ul{
+	line-height: 60px;
+	margin: 0;
+	color: white;
+}
+
+#top_menu ul li{
+	display: inline;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: 1px dashed;
+	color: white;
+}
+
+ #top_menu ul li:first-child {
+    border-left:none;
+	padding-left: 0;
+ }
+
+
+#top_menu ul li a{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#top_menu ul li a:hover{
+	text-decoration: underline;
+}
+
+#footer{
+	color: #FFFFFF;
+	width: 880px;
+	padding:10px;
+	text-align: center;
+}
+
+#footer a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+
+#top_menu ul li .current{
+	text-decoration: underline;
+}
+/*
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.button:active {
+	position:relative;
+	top:1px;
+}*/
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #c4daf5) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #c4daf5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#c4daf5');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #b8cce6;
+	display:inline-block;
+	color:#789bc2;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c4daf5), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #c4daf5 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4daf5', endColorstr='#ededed');
+	background-color:#c4daf5;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Page reset */
+	margin:0px;
+	padding:0px;
+}
+
+
+/* Gallery styles */
+
+#gallery{
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:0 0 3px #AAAAAA;
+	-webkit-box-shadow:0 0 3px #AAAAAA;
+	box-shadow:0 0 3px #AAAAAA;
+	/* CSS3 Rounded Corners */
+	
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	border:1px solid #CCC;
+	background:url(../img/panel.jpg) repeat-x bottom center #ffffff;
+	/* The width of the gallery */
+	width:920px;
+	overflow:hidden;
+}
+
+#slides1{
+	/* This is the slide area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:920px;
+	overflow:hidden;
+}
+
+.slide{
+	float:left;
+}
+#menu1{
+	/* This is the container for the thumbnails */
+	height:45px;
+	float: none;
+	width: 400px;
+}
+
+#cont {
+	padding-top: 40px;
+}
+#cont1 {
+	width: 290px;
+	height: 300px;
+	border: 1px solid #FFF;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+#con111 {
+	padding-left: 20px;
+	padding-right: 15px;
+	text-align: left;
+	padding-top: 15px;
+}
+#con222 {
+	text-align: left;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 20px;
+}
+#con333 {
+	text-align: left;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 20px;
+}
+#con11 {
+	height: 45px;
+	width: auto;
+	background-image: url(../img/panel.jpg);
+	background-repeat: no-repeat;
+	font-size: 24px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#con22 {
+	height: 45px;
+	width: auto;
+	background-image: url(../img/panel.jpg);
+	background-repeat: no-repeat;
+	font-size: 24px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#con33 {
+	height: 45px;
+	width: auto;
+	background-image: url(../img/panel.jpg);
+	background-repeat: no-repeat;
+	font-size: 24px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#cont2 {
+	width: 290px;
+	float: right;
+	margin-right: 22px;
+	background-repeat: no-repeat;
+	height: 300px;
+	border: 1px solid #FFF;
+}
+#cont3 {
+	width: 290px;
+	float: right;
+	height: 300px;
+	border: 1px solid #FFF;
+}
+ul{
+	padding:0px;
+	margin: 0px;
+}
+li1{
+	/* Every thumbnail is a li element */
+	width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+	margin-left: 150px;
+}
+li1.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(img/pic_bg.png) repeat;
+}
+
+li1.act,li.act:hover{
+	/* The active state of the thumb */
+	background:url(img/active_bg.png) no-repeat;
+}
+
+li1.act a{
+	cursor:default;
+}
+
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:2px;
+	background:url(img/divider.png) no-repeat right;
+}
+
+li1 a{
+	display:block;
+	background:url(img/divider.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+}
+
+a img{
+	border:none;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+h1{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:36px;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+#main1{
+	text-align:center;
+	width:920px;
+	position:relative;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+
+a, a:visited {
+	color:#6CF;
+	text-decoration:none;
+	outline:none;
+}
+#fotlinks3 {
+	width: 250px;
+	float: right;
+	padding-top: 20px;
+	padding-left: 30px;
+	margin-right: 50px;
+	text-shadow: 1px 1px 1px #000;
+}
+#fotlinks4 {
+	width: 250px;
+	padding-top: 20px;
+	padding-left: 30px;
+	float: right;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#fot {
+	height: 200px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background: #014464;
+	background: -moz-linear-gradient(top, #0272a7, #013953);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#013953));
+	background-repeat: repeat-x;
+	margin-top: 30px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	color: #FFF;
+}
+#title {
+	height: 70px;
+	background: #014464;
+	background: -moz-linear-gradient(top, #0272a7, #013953);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#013953));
+	text-decoration:none;
+	text-shadow: 2px 2px 2px #000;
+}
+#title1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 920px;
+	padding-left: 70px;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#fotlinks5 {
+	width: 250px;
+}
+
+#fotlinks1 {
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+#fotlinks2 {
+	height: auto;
+	width: 250px;
+	text-align: left;
+	padding-left: 30px;
+	font-size: 14px;
+	padding-top: 20px;
+	text-shadow: 1px 1px 1px #000;
+}
+#fotlinks6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+
+
+
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+
+p{
+	padding:10px;
+	text-align:center;
+}
+#menutop {
+	height: 45px;
+}
